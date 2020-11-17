@@ -1,5 +1,5 @@
 CREATE DATABASE AddressBookRPA
-create table AddressBook
+create table addressBook
 (
 firstName varchar(25),
 lastName varchar(25),
@@ -10,3 +10,4 @@ zip int,
 phoneNumber bigint,
 email varchar(100)
 )
+SELECT * FROM AddressBook
